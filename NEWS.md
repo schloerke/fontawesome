@@ -2,7 +2,7 @@
 
 * Closed #53: The `margin_right` argument of `fa()` is now functional, defaulting to the `"auto"` margin; a `margin_left` argument was also added with the same default. (#54)
 
-* The `"desc"` option in `fa()`'s `a11y` argument has been changed to `"deco"`.
+* The `"desc"` option in `fa()`'s `a11y` argument is now changed to `"deco"`.
 
 # fontawesome 0.2.0
 
