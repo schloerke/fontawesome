@@ -388,7 +388,7 @@ gen_csv_df_code <- function(varname, data) {
 '  )
   tc <- textConnection(csv_content)
   on.exit(close(tc))
-  read.table(tc, header = TRUE, quote = "", sep = ";", stringsAsFactors = FALSE)
+  utils::read.table(tc, header = TRUE, quote = "", sep = ";", stringsAsFactors = FALSE)
 })
 ',
     file = outfile,
